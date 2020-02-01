@@ -27,8 +27,11 @@ Execute the following query in order to make sure the modifications have been ex
 select * from  all_tables t where t.OWNER not in ('SYS','MDSYS','APEX_040000','SYSTEM','CTXSYS', 'XDB');
 
 Dreamio user has select permission for 3 tables:
+
   HR.COUNTRIES
+  
   HR.DEPARTMENTS
+  
   HR.EMPLOYEES
 
 # Login into Dremio:
@@ -36,21 +39,31 @@ Dreamio user has select permission for 3 tables:
 Fill in the sing-up form:
 
 Name: Anna Milinska
+
 Username: anna11
+
 Email: anna11@gmail.com
+
 Passwords: anna11
 
 # After the authentication add new Oracle data source in Dremio:
 
 Host: database
+
 Port: 1521
+
 Sid: xe
+
 username/password:
+
 dremio/dremio
 
 Dremio user can access and query the following 3 tables from HR schema (thanks for the database role and grants):
+
   HR.COUNTRIES
+  
   HR.DEPARTMENTS
+  
   HR.EMPLOYEES
 
 
