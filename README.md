@@ -56,6 +56,13 @@ Dremio user can access and query the following 3 tables from HR schema (thanks f
   - HR.EMPLOYEES
 
 
+# Testing Dremio Functionality
+- Grant select privilage on Tables in Oracle Schemas
+- VDS
+- Oracle Query Pushdown
+- Reflections
 
+# Out of Scope of this project: 
+- Testing Oracle and HDFS join query from Dremio
 
 
