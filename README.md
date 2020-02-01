@@ -40,7 +40,7 @@ Fill in the sing-up form:
 - Name: Anna Milinska
 - Username: anna11
 - Email: anna11@gmail.com
-- Passwords: anna11
+- Passwords: Milinska11
 
 # After the authentication add new Oracle data source in Dremio:
 
