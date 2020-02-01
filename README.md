@@ -24,6 +24,7 @@ dremio/dremio
 
 # Login into the database with dremio user.
 Execute the following query in order to make sure the modifications have been executed:
+
 select * from  all_tables t where t.OWNER not in ('SYS','MDSYS','APEX_040000','SYSTEM','CTXSYS', 'XDB');
 
 Dreamio user has select permission for 3 tables:
