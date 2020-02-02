@@ -1,0 +1,19 @@
+version: '3'
+services: 
+  oracle-db:
+    image: oracleinanutshell/oracle-xe-11g:latest
+    volumes:
+      - oracle-data:/opt/oracle/oradata    
+    ports:
+      - 1521:1521
+      - 5500:5500
+  dremio:
+    image: dremio/dremio-oss
+    ports:
+      - 9047:9047
+      - 31010:31010
+      - 45678:45678
+    links: 
+      - "oracle-db:database"
+volumes:
+  oracle-data:
