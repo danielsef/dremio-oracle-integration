@@ -65,4 +65,8 @@ Dremio user can access and query the following 3 tables from HR schema (thanks f
 # Out of Scope of this project: 
 - Testing Oracle and HDFS join query from Dremio
 
-
+# Useful Docs:
+- Dremio Docs: https://docs.dremio.com/
+- Tutorials: https://www.dremio.com/tutorials/
+- Library: https://www.dremio.com/library/
+- Dremio University: https://university.dremio.com/
